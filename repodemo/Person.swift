@@ -27,7 +27,9 @@ init(pid: Int, fname: String, lname: String)
 }
     func setdata()
     {
-    
+    self.pid  = 0
+        self.fnmae = "amrit"
+        self.lnmae = "singh"
     }
     func display()
     {

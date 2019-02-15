@@ -13,4 +13,5 @@ print("Hello, World!")
 //samir
 //maninder
  var  p1 = Person()
+p1.setdata()
 p1.display()
