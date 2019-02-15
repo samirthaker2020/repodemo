@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B02370722163F2700A7A607 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B02370622163F2700A7A607 /* Person.swift */; };
+		9B0237092216516E00A7A607 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0237082216516E00A7A607 /* IDisplay.swift */; };
 		9B0B67E122163B5900507B30 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B67E022163B5900507B30 /* main.swift */; };
 		9B0B67E822163C9900507B30 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B67E722163C9900507B30 /* Student.swift */; };
 		9B24135D2216433800A92E0B /* Faculty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B24135C2216433800A92E0B /* Faculty.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		9B02370622163F2700A7A607 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9B0237082216516E00A7A607 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 		9B0B67DD22163B5900507B30 /* repodemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = repodemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0B67E022163B5900507B30 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9B0B67E722163C9900507B30 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				9B0B67E722163C9900507B30 /* Student.swift */,
 				9B02370622163F2700A7A607 /* Person.swift */,
 				9B24135C2216433800A92E0B /* Faculty.swift */,
+				9B0237082216516E00A7A607 /* IDisplay.swift */,
 			);
 			path = repodemo;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 				9B24135D2216433800A92E0B /* Faculty.swift in Sources */,
 				9B02370722163F2700A7A607 /* Person.swift in Sources */,
 				9B0B67E122163B5900507B30 /* main.swift in Sources */,
+				9B0237092216516E00A7A607 /* IDisplay.swift in Sources */,
 				9B0B67E822163C9900507B30 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

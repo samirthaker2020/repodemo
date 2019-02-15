@@ -7,8 +7,17 @@
 //
 
 import Foundation
-class Person
+class Person: IDisplay
 {
+    func printdata()
+    {
+         print("a")
+    }
+    
+    
+    
+    
+    
     var pid: Int = 0
     var fnmae: String!
     var lnmae: String?
@@ -37,4 +46,8 @@ init(pid: Int, fname: String, lname: String)
         print(" person ID :\(self.fnmae)")
         print(" person ID :\(self.lnmae)")
     }
+}
+func printdata()
+{
+    print("protocol method in person class")
 }
