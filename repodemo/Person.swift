@@ -7,3 +7,32 @@
 //
 
 import Foundation
+class Person
+{
+    var pid: Int = 0
+    var fnmae: String!
+    var lnmae: String?
+    
+init()
+{
+    self.pid = 0
+    self.fnmae  = String()
+    self.lnmae  = String()
+}
+init(pid: Int, fname: String, lname: String)
+{
+    self.pid = pid
+    self.fnmae = lname
+    self.lnmae = lname
+}
+    func setdata()
+    {
+    
+    }
+    func display()
+    {
+        print(" person ID :\(self.pid)")
+        print(" person ID :\(self.fnmae)")
+        print(" person ID :\(self.lnmae)")
+    }
+}
